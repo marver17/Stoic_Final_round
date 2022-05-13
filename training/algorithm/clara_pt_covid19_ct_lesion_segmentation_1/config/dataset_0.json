@@ -1,0 +1,3671 @@
+{
+    "description": "COVID affected region segmentation",
+    "labels": {
+        "0": "background",
+        "1": "COVID affected regions"
+    },
+    "modality": "CT",
+    "name": "COVID",
+    "numTest": 93,
+    "numTraining": 730,
+    "numValidation": 90,
+    "tensorImageSize": "3D",
+    "testing": [
+        {
+            "image": "Image_1/0011.nii.gz",
+            "label": "Annotation_1/0011.nii.gz"
+        },
+        {
+            "image": "Image_1/0014.nii.gz",
+            "label": "Annotation_1/0014.nii.gz"
+        },
+        {
+            "image": "Image_1/0040.nii.gz",
+            "label": "Annotation_1/0040.nii.gz"
+        },
+        {
+            "image": "Image_1/0044.nii.gz",
+            "label": "Annotation_1/0044.nii.gz"
+        },
+        {
+            "image": "Image_1/0067.nii.gz",
+            "label": "Annotation_1/0067.nii.gz"
+        },
+        {
+            "image": "Image_1/0082.nii.gz",
+            "label": "Annotation_1/0082.nii.gz"
+        },
+        {
+            "image": "Image_1/0084.nii.gz",
+            "label": "Annotation_1/0084.nii.gz"
+        },
+        {
+            "image": "Image_1/0119.nii.gz",
+            "label": "Annotation_1/0119.nii.gz"
+        },
+        {
+            "image": "Image_1/0160_2.nii.gz",
+            "label": "Annotation_1/0160_2.nii.gz"
+        },
+        {
+            "image": "Image_1/0172.nii.gz",
+            "label": "Annotation_1/0172.nii.gz"
+        },
+        {
+            "image": "Image_1/0180_0.nii.gz",
+            "label": "Annotation_1/0180_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0202_0.nii.gz",
+            "label": "Annotation_1/0202_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0210.nii.gz",
+            "label": "Annotation_1/0210.nii.gz"
+        },
+        {
+            "image": "Image_1/0212_0.nii.gz",
+            "label": "Annotation_1/0212_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0221.nii.gz",
+            "label": "Annotation_1/0221.nii.gz"
+        },
+        {
+            "image": "Image_1/0224.nii.gz",
+            "label": "Annotation_1/0224.nii.gz"
+        },
+        {
+            "image": "Image_1/0230.nii.gz",
+            "label": "Annotation_1/0230.nii.gz"
+        },
+        {
+            "image": "Image_1/0233.nii.gz",
+            "label": "Annotation_1/0233.nii.gz"
+        },
+        {
+            "image": "Image_1/0240.nii.gz",
+            "label": "Annotation_1/0240.nii.gz"
+        },
+        {
+            "image": "Image_1/0246.nii.gz",
+            "label": "Annotation_1/0246.nii.gz"
+        },
+        {
+            "image": "Image_1/0265_1.nii.gz",
+            "label": "Annotation_1/0265_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0275.nii.gz",
+            "label": "Annotation_1/0275.nii.gz"
+        },
+        {
+            "image": "Image_1/0281.nii.gz",
+            "label": "Annotation_1/0281.nii.gz"
+        },
+        {
+            "image": "Image_1/0283.nii.gz",
+            "label": "Annotation_1/0283.nii.gz"
+        },
+        {
+            "image": "Image_1/0287_0.nii.gz",
+            "label": "Annotation_1/0287_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0305.nii.gz",
+            "label": "Annotation_1/0305.nii.gz"
+        },
+        {
+            "image": "Image_1/0307.nii.gz",
+            "label": "Annotation_1/0307.nii.gz"
+        },
+        {
+            "image": "Image_1/0317_0.nii.gz",
+            "label": "Annotation_1/0317_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0317_1.nii.gz",
+            "label": "Annotation_1/0317_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0324.nii.gz",
+            "label": "Annotation_1/0324.nii.gz"
+        },
+        {
+            "image": "Image_1/0337.nii.gz",
+            "label": "Annotation_1/0337.nii.gz"
+        },
+        {
+            "image": "Image_1/0357.nii.gz",
+            "label": "Annotation_1/0357.nii.gz"
+        },
+        {
+            "image": "Image_1/0372.nii.gz",
+            "label": "Annotation_1/0372.nii.gz"
+        },
+        {
+            "image": "Image_1/0374.nii.gz",
+            "label": "Annotation_1/0374.nii.gz"
+        },
+        {
+            "image": "Image_1/0376.nii.gz",
+            "label": "Annotation_1/0376.nii.gz"
+        },
+        {
+            "image": "Image_1/0377.nii.gz",
+            "label": "Annotation_1/0377.nii.gz"
+        },
+        {
+            "image": "Image_1/0383_0.nii.gz",
+            "label": "Annotation_1/0383_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0384.nii.gz",
+            "label": "Annotation_1/0384.nii.gz"
+        },
+        {
+            "image": "Image_1/0392.nii.gz",
+            "label": "Annotation_1/0392.nii.gz"
+        },
+        {
+            "image": "Image_1/0393.nii.gz",
+            "label": "Annotation_1/0393.nii.gz"
+        },
+        {
+            "image": "Image_1/0396.nii.gz",
+            "label": "Annotation_1/0396.nii.gz"
+        },
+        {
+            "image": "Image_1/0436.nii.gz",
+            "label": "Annotation_1/0436.nii.gz"
+        },
+        {
+            "image": "Image_1/0441.nii.gz",
+            "label": "Annotation_1/0441.nii.gz"
+        },
+        {
+            "image": "Image_1/0450.nii.gz",
+            "label": "Annotation_1/0450.nii.gz"
+        },
+        {
+            "image": "Image_1/0451.nii.gz",
+            "label": "Annotation_1/0451.nii.gz"
+        },
+        {
+            "image": "Image_1/0464.nii.gz",
+            "label": "Annotation_1/0464.nii.gz"
+        },
+        {
+            "image": "Image_1/0491.nii.gz",
+            "label": "Annotation_1/0491.nii.gz"
+        },
+        {
+            "image": "Image_1/0503.nii.gz",
+            "label": "Annotation_1/0503.nii.gz"
+        },
+        {
+            "image": "Image_1/0506.nii.gz",
+            "label": "Annotation_1/0506.nii.gz"
+        },
+        {
+            "image": "Image_1/0528.nii.gz",
+            "label": "Annotation_1/0528.nii.gz"
+        },
+        {
+            "image": "Image_1/0529.nii.gz",
+            "label": "Annotation_1/0529.nii.gz"
+        },
+        {
+            "image": "Image_1/0532.nii.gz",
+            "label": "Annotation_1/0532.nii.gz"
+        },
+        {
+            "image": "Image_1/0545.nii.gz",
+            "label": "Annotation_1/0545.nii.gz"
+        },
+        {
+            "image": "Image_1/0548.nii.gz",
+            "label": "Annotation_1/0548.nii.gz"
+        },
+        {
+            "image": "Image_1/0558.nii.gz",
+            "label": "Annotation_1/0558.nii.gz"
+        },
+        {
+            "image": "Image_1/0560.nii.gz",
+            "label": "Annotation_1/0560.nii.gz"
+        },
+        {
+            "image": "Image_1/0581.nii.gz",
+            "label": "Annotation_1/0581.nii.gz"
+        },
+        {
+            "image": "Image_1/0606.nii.gz",
+            "label": "Annotation_1/0606.nii.gz"
+        },
+        {
+            "image": "Image_1/0609.nii.gz",
+            "label": "Annotation_1/0609.nii.gz"
+        },
+        {
+            "image": "Image_1/0639.nii.gz",
+            "label": "Annotation_1/0639.nii.gz"
+        },
+        {
+            "image": "Image_1/0642.nii.gz",
+            "label": "Annotation_1/0642.nii.gz"
+        },
+        {
+            "image": "Image_1/0668.nii.gz",
+            "label": "Annotation_1/0668.nii.gz"
+        },
+        {
+            "image": "Image_1/0680.nii.gz",
+            "label": "Annotation_1/0680.nii.gz"
+        },
+        {
+            "image": "Image_1/0682.nii.gz",
+            "label": "Annotation_1/0682.nii.gz"
+        },
+        {
+            "image": "Image_1/0697.nii.gz",
+            "label": "Annotation_1/0697.nii.gz"
+        },
+        {
+            "image": "Image_2/0005_0.nii.gz",
+            "label": "Annotation_2/0005_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0051_1_0.nii.gz",
+            "label": "Annotation_2/0051_1_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0070_0.nii.gz",
+            "label": "Annotation_2/0070_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0081.nii.gz",
+            "label": "Annotation_2/0081.nii.gz"
+        },
+        {
+            "image": "Image_2/0094_0.nii.gz",
+            "label": "Annotation_2/0094_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0097_0.nii.gz",
+            "label": "Annotation_2/0097_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0108_0.nii.gz",
+            "label": "Annotation_2/0108_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0109_0.nii.gz",
+            "label": "Annotation_2/0109_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0000_0.nii.gz",
+            "label": "Annotation_3/0000_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0004_2.nii.gz",
+            "label": "Annotation_3/0004_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0004_3.nii.gz",
+            "label": "Annotation_3/0004_3.nii.gz"
+        },
+        {
+            "image": "Image_3/0011_0.nii.gz",
+            "label": "Annotation_3/0011_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0011_1.nii.gz",
+            "label": "Annotation_3/0011_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0011_10.nii.gz",
+            "label": "Annotation_3/0011_10.nii.gz"
+        },
+        {
+            "image": "Image_3/0011_11.nii.gz",
+            "label": "Annotation_3/0011_11.nii.gz"
+        },
+        {
+            "image": "Image_3/0011_16.nii.gz",
+            "label": "Annotation_3/0011_16.nii.gz"
+        },
+        {
+            "image": "Image_3/0011_5.nii.gz",
+            "label": "Annotation_3/0011_5.nii.gz"
+        },
+        {
+            "image": "Image_3/0011_6.nii.gz",
+            "label": "Annotation_3/0011_6.nii.gz"
+        },
+        {
+            "image": "Image_3/0011_9.nii.gz",
+            "label": "Annotation_3/0011_9.nii.gz"
+        },
+        {
+            "image": "Image_3/0113_0.nii.gz",
+            "label": "Annotation_3/0113_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0116_1.nii.gz",
+            "label": "Annotation_3/0116_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0120_1.nii.gz",
+            "label": "Annotation_3/0120_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0123_2.nii.gz",
+            "label": "Annotation_3/0123_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0127_1.nii.gz",
+            "label": "Annotation_3/0127_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0130_2.nii.gz",
+            "label": "Annotation_3/0130_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0136_2.nii.gz",
+            "label": "Annotation_3/0136_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0141_2.nii.gz",
+            "label": "Annotation_3/0141_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0147_2.nii.gz",
+            "label": "Annotation_3/0147_2.nii.gz"
+        }
+    ],
+    "training": [
+        {
+            "image": "Image_1/0000.nii.gz",
+            "label": "Annotation_1/0000.nii.gz"
+        },
+        {
+            "image": "Image_1/0001.nii.gz",
+            "label": "Annotation_1/0001.nii.gz"
+        },
+        {
+            "image": "Image_1/0002.nii.gz",
+            "label": "Annotation_1/0002.nii.gz"
+        },
+        {
+            "image": "Image_1/0003.nii.gz",
+            "label": "Annotation_1/0003.nii.gz"
+        },
+        {
+            "image": "Image_1/0004.nii.gz",
+            "label": "Annotation_1/0004.nii.gz"
+        },
+        {
+            "image": "Image_1/0005.nii.gz",
+            "label": "Annotation_1/0005.nii.gz"
+        },
+        {
+            "image": "Image_1/0007.nii.gz",
+            "label": "Annotation_1/0007.nii.gz"
+        },
+        {
+            "image": "Image_1/0008.nii.gz",
+            "label": "Annotation_1/0008.nii.gz"
+        },
+        {
+            "image": "Image_1/0010.nii.gz",
+            "label": "Annotation_1/0010.nii.gz"
+        },
+        {
+            "image": "Image_1/0012.nii.gz",
+            "label": "Annotation_1/0012.nii.gz"
+        },
+        {
+            "image": "Image_1/0013.nii.gz",
+            "label": "Annotation_1/0013.nii.gz"
+        },
+        {
+            "image": "Image_1/0015.nii.gz",
+            "label": "Annotation_1/0015.nii.gz"
+        },
+        {
+            "image": "Image_1/0016.nii.gz",
+            "label": "Annotation_1/0016.nii.gz"
+        },
+        {
+            "image": "Image_1/0020.nii.gz",
+            "label": "Annotation_1/0020.nii.gz"
+        },
+        {
+            "image": "Image_1/0021.nii.gz",
+            "label": "Annotation_1/0021.nii.gz"
+        },
+        {
+            "image": "Image_1/0022.nii.gz",
+            "label": "Annotation_1/0022.nii.gz"
+        },
+        {
+            "image": "Image_1/0023.nii.gz",
+            "label": "Annotation_1/0023.nii.gz"
+        },
+        {
+            "image": "Image_1/0024_1.nii.gz",
+            "label": "Annotation_1/0024_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0026.nii.gz",
+            "label": "Annotation_1/0026.nii.gz"
+        },
+        {
+            "image": "Image_1/0027_0.nii.gz",
+            "label": "Annotation_1/0027_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0027_1.nii.gz",
+            "label": "Annotation_1/0027_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0028_0.nii.gz",
+            "label": "Annotation_1/0028_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0029.nii.gz",
+            "label": "Annotation_1/0029.nii.gz"
+        },
+        {
+            "image": "Image_1/0030.nii.gz",
+            "label": "Annotation_1/0030.nii.gz"
+        },
+        {
+            "image": "Image_1/0031.nii.gz",
+            "label": "Annotation_1/0031.nii.gz"
+        },
+        {
+            "image": "Image_1/0032.nii.gz",
+            "label": "Annotation_1/0032.nii.gz"
+        },
+        {
+            "image": "Image_1/0033.nii.gz",
+            "label": "Annotation_1/0033.nii.gz"
+        },
+        {
+            "image": "Image_1/0034.nii.gz",
+            "label": "Annotation_1/0034.nii.gz"
+        },
+        {
+            "image": "Image_1/0035.nii.gz",
+            "label": "Annotation_1/0035.nii.gz"
+        },
+        {
+            "image": "Image_1/0038.nii.gz",
+            "label": "Annotation_1/0038.nii.gz"
+        },
+        {
+            "image": "Image_1/0039.nii.gz",
+            "label": "Annotation_1/0039.nii.gz"
+        },
+        {
+            "image": "Image_1/0041.nii.gz",
+            "label": "Annotation_1/0041.nii.gz"
+        },
+        {
+            "image": "Image_1/0042.nii.gz",
+            "label": "Annotation_1/0042.nii.gz"
+        },
+        {
+            "image": "Image_1/0043.nii.gz",
+            "label": "Annotation_1/0043.nii.gz"
+        },
+        {
+            "image": "Image_1/0046.nii.gz",
+            "label": "Annotation_1/0046.nii.gz"
+        },
+        {
+            "image": "Image_1/0048.nii.gz",
+            "label": "Annotation_1/0048.nii.gz"
+        },
+        {
+            "image": "Image_1/0050.nii.gz",
+            "label": "Annotation_1/0050.nii.gz"
+        },
+        {
+            "image": "Image_1/0051.nii.gz",
+            "label": "Annotation_1/0051.nii.gz"
+        },
+        {
+            "image": "Image_1/0053.nii.gz",
+            "label": "Annotation_1/0053.nii.gz"
+        },
+        {
+            "image": "Image_1/0054.nii.gz",
+            "label": "Annotation_1/0054.nii.gz"
+        },
+        {
+            "image": "Image_1/0055.nii.gz",
+            "label": "Annotation_1/0055.nii.gz"
+        },
+        {
+            "image": "Image_1/0058.nii.gz",
+            "label": "Annotation_1/0058.nii.gz"
+        },
+        {
+            "image": "Image_1/0059.nii.gz",
+            "label": "Annotation_1/0059.nii.gz"
+        },
+        {
+            "image": "Image_1/0060.nii.gz",
+            "label": "Annotation_1/0060.nii.gz"
+        },
+        {
+            "image": "Image_1/0061.nii.gz",
+            "label": "Annotation_1/0061.nii.gz"
+        },
+        {
+            "image": "Image_1/0062.nii.gz",
+            "label": "Annotation_1/0062.nii.gz"
+        },
+        {
+            "image": "Image_1/0063.nii.gz",
+            "label": "Annotation_1/0063.nii.gz"
+        },
+        {
+            "image": "Image_1/0064.nii.gz",
+            "label": "Annotation_1/0064.nii.gz"
+        },
+        {
+            "image": "Image_1/0065.nii.gz",
+            "label": "Annotation_1/0065.nii.gz"
+        },
+        {
+            "image": "Image_1/0068.nii.gz",
+            "label": "Annotation_1/0068.nii.gz"
+        },
+        {
+            "image": "Image_1/0069.nii.gz",
+            "label": "Annotation_1/0069.nii.gz"
+        },
+        {
+            "image": "Image_1/0070.nii.gz",
+            "label": "Annotation_1/0070.nii.gz"
+        },
+        {
+            "image": "Image_1/0071.nii.gz",
+            "label": "Annotation_1/0071.nii.gz"
+        },
+        {
+            "image": "Image_1/0074_0.nii.gz",
+            "label": "Annotation_1/0074_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0074_1.nii.gz",
+            "label": "Annotation_1/0074_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0075.nii.gz",
+            "label": "Annotation_1/0075.nii.gz"
+        },
+        {
+            "image": "Image_1/0076.nii.gz",
+            "label": "Annotation_1/0076.nii.gz"
+        },
+        {
+            "image": "Image_1/0077.nii.gz",
+            "label": "Annotation_1/0077.nii.gz"
+        },
+        {
+            "image": "Image_1/0079.nii.gz",
+            "label": "Annotation_1/0079.nii.gz"
+        },
+        {
+            "image": "Image_1/0080.nii.gz",
+            "label": "Annotation_1/0080.nii.gz"
+        },
+        {
+            "image": "Image_1/0081.nii.gz",
+            "label": "Annotation_1/0081.nii.gz"
+        },
+        {
+            "image": "Image_1/0083.nii.gz",
+            "label": "Annotation_1/0083.nii.gz"
+        },
+        {
+            "image": "Image_1/0086.nii.gz",
+            "label": "Annotation_1/0086.nii.gz"
+        },
+        {
+            "image": "Image_1/0087.nii.gz",
+            "label": "Annotation_1/0087.nii.gz"
+        },
+        {
+            "image": "Image_1/0089.nii.gz",
+            "label": "Annotation_1/0089.nii.gz"
+        },
+        {
+            "image": "Image_1/0090.nii.gz",
+            "label": "Annotation_1/0090.nii.gz"
+        },
+        {
+            "image": "Image_1/0091.nii.gz",
+            "label": "Annotation_1/0091.nii.gz"
+        },
+        {
+            "image": "Image_1/0092.nii.gz",
+            "label": "Annotation_1/0092.nii.gz"
+        },
+        {
+            "image": "Image_1/0093.nii.gz",
+            "label": "Annotation_1/0093.nii.gz"
+        },
+        {
+            "image": "Image_1/0094.nii.gz",
+            "label": "Annotation_1/0094.nii.gz"
+        },
+        {
+            "image": "Image_1/0096.nii.gz",
+            "label": "Annotation_1/0096.nii.gz"
+        },
+        {
+            "image": "Image_1/0097_0.nii.gz",
+            "label": "Annotation_1/0097_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0100.nii.gz",
+            "label": "Annotation_1/0100.nii.gz"
+        },
+        {
+            "image": "Image_1/0102.nii.gz",
+            "label": "Annotation_1/0102.nii.gz"
+        },
+        {
+            "image": "Image_1/0103.nii.gz",
+            "label": "Annotation_1/0103.nii.gz"
+        },
+        {
+            "image": "Image_1/0104.nii.gz",
+            "label": "Annotation_1/0104.nii.gz"
+        },
+        {
+            "image": "Image_1/0106.nii.gz",
+            "label": "Annotation_1/0106.nii.gz"
+        },
+        {
+            "image": "Image_1/0108.nii.gz",
+            "label": "Annotation_1/0108.nii.gz"
+        },
+        {
+            "image": "Image_1/0109.nii.gz",
+            "label": "Annotation_1/0109.nii.gz"
+        },
+        {
+            "image": "Image_1/0110.nii.gz",
+            "label": "Annotation_1/0110.nii.gz"
+        },
+        {
+            "image": "Image_1/0112.nii.gz",
+            "label": "Annotation_1/0112.nii.gz"
+        },
+        {
+            "image": "Image_1/0113_0.nii.gz",
+            "label": "Annotation_1/0113_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0113_1.nii.gz",
+            "label": "Annotation_1/0113_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0113_2.nii.gz",
+            "label": "Annotation_1/0113_2.nii.gz"
+        },
+        {
+            "image": "Image_1/0113_3.nii.gz",
+            "label": "Annotation_1/0113_3.nii.gz"
+        },
+        {
+            "image": "Image_1/0114.nii.gz",
+            "label": "Annotation_1/0114.nii.gz"
+        },
+        {
+            "image": "Image_1/0117.nii.gz",
+            "label": "Annotation_1/0117.nii.gz"
+        },
+        {
+            "image": "Image_1/0120.nii.gz",
+            "label": "Annotation_1/0120.nii.gz"
+        },
+        {
+            "image": "Image_1/0121.nii.gz",
+            "label": "Annotation_1/0121.nii.gz"
+        },
+        {
+            "image": "Image_1/0122.nii.gz",
+            "label": "Annotation_1/0122.nii.gz"
+        },
+        {
+            "image": "Image_1/0124.nii.gz",
+            "label": "Annotation_1/0124.nii.gz"
+        },
+        {
+            "image": "Image_1/0125.nii.gz",
+            "label": "Annotation_1/0125.nii.gz"
+        },
+        {
+            "image": "Image_1/0129.nii.gz",
+            "label": "Annotation_1/0129.nii.gz"
+        },
+        {
+            "image": "Image_1/0130.nii.gz",
+            "label": "Annotation_1/0130.nii.gz"
+        },
+        {
+            "image": "Image_1/0131.nii.gz",
+            "label": "Annotation_1/0131.nii.gz"
+        },
+        {
+            "image": "Image_1/0132.nii.gz",
+            "label": "Annotation_1/0132.nii.gz"
+        },
+        {
+            "image": "Image_1/0133.nii.gz",
+            "label": "Annotation_1/0133.nii.gz"
+        },
+        {
+            "image": "Image_1/0134.nii.gz",
+            "label": "Annotation_1/0134.nii.gz"
+        },
+        {
+            "image": "Image_1/0137.nii.gz",
+            "label": "Annotation_1/0137.nii.gz"
+        },
+        {
+            "image": "Image_1/0138.nii.gz",
+            "label": "Annotation_1/0138.nii.gz"
+        },
+        {
+            "image": "Image_1/0139.nii.gz",
+            "label": "Annotation_1/0139.nii.gz"
+        },
+        {
+            "image": "Image_1/0140.nii.gz",
+            "label": "Annotation_1/0140.nii.gz"
+        },
+        {
+            "image": "Image_1/0141.nii.gz",
+            "label": "Annotation_1/0141.nii.gz"
+        },
+        {
+            "image": "Image_1/0142.nii.gz",
+            "label": "Annotation_1/0142.nii.gz"
+        },
+        {
+            "image": "Image_1/0143.nii.gz",
+            "label": "Annotation_1/0143.nii.gz"
+        },
+        {
+            "image": "Image_1/0148.nii.gz",
+            "label": "Annotation_1/0148.nii.gz"
+        },
+        {
+            "image": "Image_1/0151.nii.gz",
+            "label": "Annotation_1/0151.nii.gz"
+        },
+        {
+            "image": "Image_1/0153.nii.gz",
+            "label": "Annotation_1/0153.nii.gz"
+        },
+        {
+            "image": "Image_1/0154.nii.gz",
+            "label": "Annotation_1/0154.nii.gz"
+        },
+        {
+            "image": "Image_1/0155.nii.gz",
+            "label": "Annotation_1/0155.nii.gz"
+        },
+        {
+            "image": "Image_1/0156.nii.gz",
+            "label": "Annotation_1/0156.nii.gz"
+        },
+        {
+            "image": "Image_1/0157.nii.gz",
+            "label": "Annotation_1/0157.nii.gz"
+        },
+        {
+            "image": "Image_1/0158.nii.gz",
+            "label": "Annotation_1/0158.nii.gz"
+        },
+        {
+            "image": "Image_1/0159.nii.gz",
+            "label": "Annotation_1/0159.nii.gz"
+        },
+        {
+            "image": "Image_1/0160_0.nii.gz",
+            "label": "Annotation_1/0160_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0160_1.nii.gz",
+            "label": "Annotation_1/0160_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0161.nii.gz",
+            "label": "Annotation_1/0161.nii.gz"
+        },
+        {
+            "image": "Image_1/0162.nii.gz",
+            "label": "Annotation_1/0162.nii.gz"
+        },
+        {
+            "image": "Image_1/0163.nii.gz",
+            "label": "Annotation_1/0163.nii.gz"
+        },
+        {
+            "image": "Image_1/0164.nii.gz",
+            "label": "Annotation_1/0164.nii.gz"
+        },
+        {
+            "image": "Image_1/0165.nii.gz",
+            "label": "Annotation_1/0165.nii.gz"
+        },
+        {
+            "image": "Image_1/0166.nii.gz",
+            "label": "Annotation_1/0166.nii.gz"
+        },
+        {
+            "image": "Image_1/0167_0.nii.gz",
+            "label": "Annotation_1/0167_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0167_1.nii.gz",
+            "label": "Annotation_1/0167_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0168.nii.gz",
+            "label": "Annotation_1/0168.nii.gz"
+        },
+        {
+            "image": "Image_1/0169.nii.gz",
+            "label": "Annotation_1/0169.nii.gz"
+        },
+        {
+            "image": "Image_1/0170.nii.gz",
+            "label": "Annotation_1/0170.nii.gz"
+        },
+        {
+            "image": "Image_1/0171_0.nii.gz",
+            "label": "Annotation_1/0171_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0171_1.nii.gz",
+            "label": "Annotation_1/0171_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0173.nii.gz",
+            "label": "Annotation_1/0173.nii.gz"
+        },
+        {
+            "image": "Image_1/0175.nii.gz",
+            "label": "Annotation_1/0175.nii.gz"
+        },
+        {
+            "image": "Image_1/0176.nii.gz",
+            "label": "Annotation_1/0176.nii.gz"
+        },
+        {
+            "image": "Image_1/0177.nii.gz",
+            "label": "Annotation_1/0177.nii.gz"
+        },
+        {
+            "image": "Image_1/0179.nii.gz",
+            "label": "Annotation_1/0179.nii.gz"
+        },
+        {
+            "image": "Image_1/0181.nii.gz",
+            "label": "Annotation_1/0181.nii.gz"
+        },
+        {
+            "image": "Image_1/0182.nii.gz",
+            "label": "Annotation_1/0182.nii.gz"
+        },
+        {
+            "image": "Image_1/0183.nii.gz",
+            "label": "Annotation_1/0183.nii.gz"
+        },
+        {
+            "image": "Image_1/0184_0.nii.gz",
+            "label": "Annotation_1/0184_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0184_1.nii.gz",
+            "label": "Annotation_1/0184_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0185.nii.gz",
+            "label": "Annotation_1/0185.nii.gz"
+        },
+        {
+            "image": "Image_1/0187.nii.gz",
+            "label": "Annotation_1/0187.nii.gz"
+        },
+        {
+            "image": "Image_1/0189_0.nii.gz",
+            "label": "Annotation_1/0189_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0189_1.nii.gz",
+            "label": "Annotation_1/0189_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0190.nii.gz",
+            "label": "Annotation_1/0190.nii.gz"
+        },
+        {
+            "image": "Image_1/0191.nii.gz",
+            "label": "Annotation_1/0191.nii.gz"
+        },
+        {
+            "image": "Image_1/0192_0.nii.gz",
+            "label": "Annotation_1/0192_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0192_1.nii.gz",
+            "label": "Annotation_1/0192_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0193.nii.gz",
+            "label": "Annotation_1/0193.nii.gz"
+        },
+        {
+            "image": "Image_1/0194.nii.gz",
+            "label": "Annotation_1/0194.nii.gz"
+        },
+        {
+            "image": "Image_1/0195.nii.gz",
+            "label": "Annotation_1/0195.nii.gz"
+        },
+        {
+            "image": "Image_1/0196_0.nii.gz",
+            "label": "Annotation_1/0196_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0196_1.nii.gz",
+            "label": "Annotation_1/0196_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0197_0.nii.gz",
+            "label": "Annotation_1/0197_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0197_1.nii.gz",
+            "label": "Annotation_1/0197_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0198.nii.gz",
+            "label": "Annotation_1/0198.nii.gz"
+        },
+        {
+            "image": "Image_1/0199.nii.gz",
+            "label": "Annotation_1/0199.nii.gz"
+        },
+        {
+            "image": "Image_1/0200.nii.gz",
+            "label": "Annotation_1/0200.nii.gz"
+        },
+        {
+            "image": "Image_1/0201.nii.gz",
+            "label": "Annotation_1/0201.nii.gz"
+        },
+        {
+            "image": "Image_1/0202_1.nii.gz",
+            "label": "Annotation_1/0202_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0203.nii.gz",
+            "label": "Annotation_1/0203.nii.gz"
+        },
+        {
+            "image": "Image_1/0204.nii.gz",
+            "label": "Annotation_1/0204.nii.gz"
+        },
+        {
+            "image": "Image_1/0205.nii.gz",
+            "label": "Annotation_1/0205.nii.gz"
+        },
+        {
+            "image": "Image_1/0206.nii.gz",
+            "label": "Annotation_1/0206.nii.gz"
+        },
+        {
+            "image": "Image_1/0207.nii.gz",
+            "label": "Annotation_1/0207.nii.gz"
+        },
+        {
+            "image": "Image_1/0208.nii.gz",
+            "label": "Annotation_1/0208.nii.gz"
+        },
+        {
+            "image": "Image_1/0211.nii.gz",
+            "label": "Annotation_1/0211.nii.gz"
+        },
+        {
+            "image": "Image_1/0212_1.nii.gz",
+            "label": "Annotation_1/0212_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0213.nii.gz",
+            "label": "Annotation_1/0213.nii.gz"
+        },
+        {
+            "image": "Image_1/0215.nii.gz",
+            "label": "Annotation_1/0215.nii.gz"
+        },
+        {
+            "image": "Image_1/0216.nii.gz",
+            "label": "Annotation_1/0216.nii.gz"
+        },
+        {
+            "image": "Image_1/0217.nii.gz",
+            "label": "Annotation_1/0217.nii.gz"
+        },
+        {
+            "image": "Image_1/0219.nii.gz",
+            "label": "Annotation_1/0219.nii.gz"
+        },
+        {
+            "image": "Image_1/0220.nii.gz",
+            "label": "Annotation_1/0220.nii.gz"
+        },
+        {
+            "image": "Image_1/0222.nii.gz",
+            "label": "Annotation_1/0222.nii.gz"
+        },
+        {
+            "image": "Image_1/0223.nii.gz",
+            "label": "Annotation_1/0223.nii.gz"
+        },
+        {
+            "image": "Image_1/0225.nii.gz",
+            "label": "Annotation_1/0225.nii.gz"
+        },
+        {
+            "image": "Image_1/0226.nii.gz",
+            "label": "Annotation_1/0226.nii.gz"
+        },
+        {
+            "image": "Image_1/0227.nii.gz",
+            "label": "Annotation_1/0227.nii.gz"
+        },
+        {
+            "image": "Image_1/0228.nii.gz",
+            "label": "Annotation_1/0228.nii.gz"
+        },
+        {
+            "image": "Image_1/0231.nii.gz",
+            "label": "Annotation_1/0231.nii.gz"
+        },
+        {
+            "image": "Image_1/0232.nii.gz",
+            "label": "Annotation_1/0232.nii.gz"
+        },
+        {
+            "image": "Image_1/0234.nii.gz",
+            "label": "Annotation_1/0234.nii.gz"
+        },
+        {
+            "image": "Image_1/0235.nii.gz",
+            "label": "Annotation_1/0235.nii.gz"
+        },
+        {
+            "image": "Image_1/0236.nii.gz",
+            "label": "Annotation_1/0236.nii.gz"
+        },
+        {
+            "image": "Image_1/0237.nii.gz",
+            "label": "Annotation_1/0237.nii.gz"
+        },
+        {
+            "image": "Image_1/0238.nii.gz",
+            "label": "Annotation_1/0238.nii.gz"
+        },
+        {
+            "image": "Image_1/0239.nii.gz",
+            "label": "Annotation_1/0239.nii.gz"
+        },
+        {
+            "image": "Image_1/0242.nii.gz",
+            "label": "Annotation_1/0242.nii.gz"
+        },
+        {
+            "image": "Image_1/0243.nii.gz",
+            "label": "Annotation_1/0243.nii.gz"
+        },
+        {
+            "image": "Image_1/0244.nii.gz",
+            "label": "Annotation_1/0244.nii.gz"
+        },
+        {
+            "image": "Image_1/0245.nii.gz",
+            "label": "Annotation_1/0245.nii.gz"
+        },
+        {
+            "image": "Image_1/0247.nii.gz",
+            "label": "Annotation_1/0247.nii.gz"
+        },
+        {
+            "image": "Image_1/0249.nii.gz",
+            "label": "Annotation_1/0249.nii.gz"
+        },
+        {
+            "image": "Image_1/0250.nii.gz",
+            "label": "Annotation_1/0250.nii.gz"
+        },
+        {
+            "image": "Image_1/0251.nii.gz",
+            "label": "Annotation_1/0251.nii.gz"
+        },
+        {
+            "image": "Image_1/0254.nii.gz",
+            "label": "Annotation_1/0254.nii.gz"
+        },
+        {
+            "image": "Image_1/0255.nii.gz",
+            "label": "Annotation_1/0255.nii.gz"
+        },
+        {
+            "image": "Image_1/0256_0.nii.gz",
+            "label": "Annotation_1/0256_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0256_1.nii.gz",
+            "label": "Annotation_1/0256_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0257.nii.gz",
+            "label": "Annotation_1/0257.nii.gz"
+        },
+        {
+            "image": "Image_1/0258.nii.gz",
+            "label": "Annotation_1/0258.nii.gz"
+        },
+        {
+            "image": "Image_1/0259.nii.gz",
+            "label": "Annotation_1/0259.nii.gz"
+        },
+        {
+            "image": "Image_1/0260.nii.gz",
+            "label": "Annotation_1/0260.nii.gz"
+        },
+        {
+            "image": "Image_1/0261_0.nii.gz",
+            "label": "Annotation_1/0261_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0261_1.nii.gz",
+            "label": "Annotation_1/0261_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0262.nii.gz",
+            "label": "Annotation_1/0262.nii.gz"
+        },
+        {
+            "image": "Image_1/0263.nii.gz",
+            "label": "Annotation_1/0263.nii.gz"
+        },
+        {
+            "image": "Image_1/0265_0.nii.gz",
+            "label": "Annotation_1/0265_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0266.nii.gz",
+            "label": "Annotation_1/0266.nii.gz"
+        },
+        {
+            "image": "Image_1/0267.nii.gz",
+            "label": "Annotation_1/0267.nii.gz"
+        },
+        {
+            "image": "Image_1/0268.nii.gz",
+            "label": "Annotation_1/0268.nii.gz"
+        },
+        {
+            "image": "Image_1/0269.nii.gz",
+            "label": "Annotation_1/0269.nii.gz"
+        },
+        {
+            "image": "Image_1/0270.nii.gz",
+            "label": "Annotation_1/0270.nii.gz"
+        },
+        {
+            "image": "Image_1/0271.nii.gz",
+            "label": "Annotation_1/0271.nii.gz"
+        },
+        {
+            "image": "Image_1/0272.nii.gz",
+            "label": "Annotation_1/0272.nii.gz"
+        },
+        {
+            "image": "Image_1/0274.nii.gz",
+            "label": "Annotation_1/0274.nii.gz"
+        },
+        {
+            "image": "Image_1/0276.nii.gz",
+            "label": "Annotation_1/0276.nii.gz"
+        },
+        {
+            "image": "Image_1/0277.nii.gz",
+            "label": "Annotation_1/0277.nii.gz"
+        },
+        {
+            "image": "Image_1/0278.nii.gz",
+            "label": "Annotation_1/0278.nii.gz"
+        },
+        {
+            "image": "Image_1/0279.nii.gz",
+            "label": "Annotation_1/0279.nii.gz"
+        },
+        {
+            "image": "Image_1/0280.nii.gz",
+            "label": "Annotation_1/0280.nii.gz"
+        },
+        {
+            "image": "Image_1/0282.nii.gz",
+            "label": "Annotation_1/0282.nii.gz"
+        },
+        {
+            "image": "Image_1/0284.nii.gz",
+            "label": "Annotation_1/0284.nii.gz"
+        },
+        {
+            "image": "Image_1/0286.nii.gz",
+            "label": "Annotation_1/0286.nii.gz"
+        },
+        {
+            "image": "Image_1/0287_1.nii.gz",
+            "label": "Annotation_1/0287_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0288.nii.gz",
+            "label": "Annotation_1/0288.nii.gz"
+        },
+        {
+            "image": "Image_1/0289.nii.gz",
+            "label": "Annotation_1/0289.nii.gz"
+        },
+        {
+            "image": "Image_1/0290.nii.gz",
+            "label": "Annotation_1/0290.nii.gz"
+        },
+        {
+            "image": "Image_1/0291_0.nii.gz",
+            "label": "Annotation_1/0291_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0292.nii.gz",
+            "label": "Annotation_1/0292.nii.gz"
+        },
+        {
+            "image": "Image_1/0293.nii.gz",
+            "label": "Annotation_1/0293.nii.gz"
+        },
+        {
+            "image": "Image_1/0294.nii.gz",
+            "label": "Annotation_1/0294.nii.gz"
+        },
+        {
+            "image": "Image_1/0295.nii.gz",
+            "label": "Annotation_1/0295.nii.gz"
+        },
+        {
+            "image": "Image_1/0296.nii.gz",
+            "label": "Annotation_1/0296.nii.gz"
+        },
+        {
+            "image": "Image_1/0297.nii.gz",
+            "label": "Annotation_1/0297.nii.gz"
+        },
+        {
+            "image": "Image_1/0298.nii.gz",
+            "label": "Annotation_1/0298.nii.gz"
+        },
+        {
+            "image": "Image_1/0300.nii.gz",
+            "label": "Annotation_1/0300.nii.gz"
+        },
+        {
+            "image": "Image_1/0301.nii.gz",
+            "label": "Annotation_1/0301.nii.gz"
+        },
+        {
+            "image": "Image_1/0302.nii.gz",
+            "label": "Annotation_1/0302.nii.gz"
+        },
+        {
+            "image": "Image_1/0303_0.nii.gz",
+            "label": "Annotation_1/0303_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0303_1.nii.gz",
+            "label": "Annotation_1/0303_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0304.nii.gz",
+            "label": "Annotation_1/0304.nii.gz"
+        },
+        {
+            "image": "Image_1/0312.nii.gz",
+            "label": "Annotation_1/0312.nii.gz"
+        },
+        {
+            "image": "Image_1/0315.nii.gz",
+            "label": "Annotation_1/0315.nii.gz"
+        },
+        {
+            "image": "Image_1/0316.nii.gz",
+            "label": "Annotation_1/0316.nii.gz"
+        },
+        {
+            "image": "Image_1/0318_0.nii.gz",
+            "label": "Annotation_1/0318_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0318_1.nii.gz",
+            "label": "Annotation_1/0318_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0319.nii.gz",
+            "label": "Annotation_1/0319.nii.gz"
+        },
+        {
+            "image": "Image_1/0320.nii.gz",
+            "label": "Annotation_1/0320.nii.gz"
+        },
+        {
+            "image": "Image_1/0321.nii.gz",
+            "label": "Annotation_1/0321.nii.gz"
+        },
+        {
+            "image": "Image_1/0322.nii.gz",
+            "label": "Annotation_1/0322.nii.gz"
+        },
+        {
+            "image": "Image_1/0323.nii.gz",
+            "label": "Annotation_1/0323.nii.gz"
+        },
+        {
+            "image": "Image_1/0325.nii.gz",
+            "label": "Annotation_1/0325.nii.gz"
+        },
+        {
+            "image": "Image_1/0326.nii.gz",
+            "label": "Annotation_1/0326.nii.gz"
+        },
+        {
+            "image": "Image_1/0328.nii.gz",
+            "label": "Annotation_1/0328.nii.gz"
+        },
+        {
+            "image": "Image_1/0329.nii.gz",
+            "label": "Annotation_1/0329.nii.gz"
+        },
+        {
+            "image": "Image_1/0330.nii.gz",
+            "label": "Annotation_1/0330.nii.gz"
+        },
+        {
+            "image": "Image_1/0331.nii.gz",
+            "label": "Annotation_1/0331.nii.gz"
+        },
+        {
+            "image": "Image_1/0332.nii.gz",
+            "label": "Annotation_1/0332.nii.gz"
+        },
+        {
+            "image": "Image_1/0333.nii.gz",
+            "label": "Annotation_1/0333.nii.gz"
+        },
+        {
+            "image": "Image_1/0335.nii.gz",
+            "label": "Annotation_1/0335.nii.gz"
+        },
+        {
+            "image": "Image_1/0336.nii.gz",
+            "label": "Annotation_1/0336.nii.gz"
+        },
+        {
+            "image": "Image_1/0338.nii.gz",
+            "label": "Annotation_1/0338.nii.gz"
+        },
+        {
+            "image": "Image_1/0339.nii.gz",
+            "label": "Annotation_1/0339.nii.gz"
+        },
+        {
+            "image": "Image_1/0341.nii.gz",
+            "label": "Annotation_1/0341.nii.gz"
+        },
+        {
+            "image": "Image_1/0342.nii.gz",
+            "label": "Annotation_1/0342.nii.gz"
+        },
+        {
+            "image": "Image_1/0343.nii.gz",
+            "label": "Annotation_1/0343.nii.gz"
+        },
+        {
+            "image": "Image_1/0344.nii.gz",
+            "label": "Annotation_1/0344.nii.gz"
+        },
+        {
+            "image": "Image_1/0345.nii.gz",
+            "label": "Annotation_1/0345.nii.gz"
+        },
+        {
+            "image": "Image_1/0346.nii.gz",
+            "label": "Annotation_1/0346.nii.gz"
+        },
+        {
+            "image": "Image_1/0347.nii.gz",
+            "label": "Annotation_1/0347.nii.gz"
+        },
+        {
+            "image": "Image_1/0348.nii.gz",
+            "label": "Annotation_1/0348.nii.gz"
+        },
+        {
+            "image": "Image_1/0349.nii.gz",
+            "label": "Annotation_1/0349.nii.gz"
+        },
+        {
+            "image": "Image_1/0350.nii.gz",
+            "label": "Annotation_1/0350.nii.gz"
+        },
+        {
+            "image": "Image_1/0351.nii.gz",
+            "label": "Annotation_1/0351.nii.gz"
+        },
+        {
+            "image": "Image_1/0352.nii.gz",
+            "label": "Annotation_1/0352.nii.gz"
+        },
+        {
+            "image": "Image_1/0353.nii.gz",
+            "label": "Annotation_1/0353.nii.gz"
+        },
+        {
+            "image": "Image_1/0355.nii.gz",
+            "label": "Annotation_1/0355.nii.gz"
+        },
+        {
+            "image": "Image_1/0356.nii.gz",
+            "label": "Annotation_1/0356.nii.gz"
+        },
+        {
+            "image": "Image_1/0358.nii.gz",
+            "label": "Annotation_1/0358.nii.gz"
+        },
+        {
+            "image": "Image_1/0359.nii.gz",
+            "label": "Annotation_1/0359.nii.gz"
+        },
+        {
+            "image": "Image_1/0360.nii.gz",
+            "label": "Annotation_1/0360.nii.gz"
+        },
+        {
+            "image": "Image_1/0361.nii.gz",
+            "label": "Annotation_1/0361.nii.gz"
+        },
+        {
+            "image": "Image_1/0362.nii.gz",
+            "label": "Annotation_1/0362.nii.gz"
+        },
+        {
+            "image": "Image_1/0364_0.nii.gz",
+            "label": "Annotation_1/0364_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0364_1.nii.gz",
+            "label": "Annotation_1/0364_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0366.nii.gz",
+            "label": "Annotation_1/0366.nii.gz"
+        },
+        {
+            "image": "Image_1/0367.nii.gz",
+            "label": "Annotation_1/0367.nii.gz"
+        },
+        {
+            "image": "Image_1/0368_0.nii.gz",
+            "label": "Annotation_1/0368_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0368_1.nii.gz",
+            "label": "Annotation_1/0368_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0369_0.nii.gz",
+            "label": "Annotation_1/0369_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0369_1.nii.gz",
+            "label": "Annotation_1/0369_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0370.nii.gz",
+            "label": "Annotation_1/0370.nii.gz"
+        },
+        {
+            "image": "Image_1/0371.nii.gz",
+            "label": "Annotation_1/0371.nii.gz"
+        },
+        {
+            "image": "Image_1/0373.nii.gz",
+            "label": "Annotation_1/0373.nii.gz"
+        },
+        {
+            "image": "Image_1/0375.nii.gz",
+            "label": "Annotation_1/0375.nii.gz"
+        },
+        {
+            "image": "Image_1/0378.nii.gz",
+            "label": "Annotation_1/0378.nii.gz"
+        },
+        {
+            "image": "Image_1/0379_0.nii.gz",
+            "label": "Annotation_1/0379_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0380.nii.gz",
+            "label": "Annotation_1/0380.nii.gz"
+        },
+        {
+            "image": "Image_1/0381_0.nii.gz",
+            "label": "Annotation_1/0381_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0381_1.nii.gz",
+            "label": "Annotation_1/0381_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0383_1.nii.gz",
+            "label": "Annotation_1/0383_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0385.nii.gz",
+            "label": "Annotation_1/0385.nii.gz"
+        },
+        {
+            "image": "Image_1/0386.nii.gz",
+            "label": "Annotation_1/0386.nii.gz"
+        },
+        {
+            "image": "Image_1/0388.nii.gz",
+            "label": "Annotation_1/0388.nii.gz"
+        },
+        {
+            "image": "Image_1/0389_1.nii.gz",
+            "label": "Annotation_1/0389_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0390.nii.gz",
+            "label": "Annotation_1/0390.nii.gz"
+        },
+        {
+            "image": "Image_1/0391.nii.gz",
+            "label": "Annotation_1/0391.nii.gz"
+        },
+        {
+            "image": "Image_1/0394.nii.gz",
+            "label": "Annotation_1/0394.nii.gz"
+        },
+        {
+            "image": "Image_1/0395.nii.gz",
+            "label": "Annotation_1/0395.nii.gz"
+        },
+        {
+            "image": "Image_1/0397.nii.gz",
+            "label": "Annotation_1/0397.nii.gz"
+        },
+        {
+            "image": "Image_1/0398.nii.gz",
+            "label": "Annotation_1/0398.nii.gz"
+        },
+        {
+            "image": "Image_1/0400.nii.gz",
+            "label": "Annotation_1/0400.nii.gz"
+        },
+        {
+            "image": "Image_1/0401.nii.gz",
+            "label": "Annotation_1/0401.nii.gz"
+        },
+        {
+            "image": "Image_1/0402.nii.gz",
+            "label": "Annotation_1/0402.nii.gz"
+        },
+        {
+            "image": "Image_1/0405.nii.gz",
+            "label": "Annotation_1/0405.nii.gz"
+        },
+        {
+            "image": "Image_1/0409.nii.gz",
+            "label": "Annotation_1/0409.nii.gz"
+        },
+        {
+            "image": "Image_1/0410.nii.gz",
+            "label": "Annotation_1/0410.nii.gz"
+        },
+        {
+            "image": "Image_1/0411.nii.gz",
+            "label": "Annotation_1/0411.nii.gz"
+        },
+        {
+            "image": "Image_1/0412.nii.gz",
+            "label": "Annotation_1/0412.nii.gz"
+        },
+        {
+            "image": "Image_1/0413.nii.gz",
+            "label": "Annotation_1/0413.nii.gz"
+        },
+        {
+            "image": "Image_1/0414.nii.gz",
+            "label": "Annotation_1/0414.nii.gz"
+        },
+        {
+            "image": "Image_1/0415.nii.gz",
+            "label": "Annotation_1/0415.nii.gz"
+        },
+        {
+            "image": "Image_1/0416.nii.gz",
+            "label": "Annotation_1/0416.nii.gz"
+        },
+        {
+            "image": "Image_1/0417.nii.gz",
+            "label": "Annotation_1/0417.nii.gz"
+        },
+        {
+            "image": "Image_1/0418.nii.gz",
+            "label": "Annotation_1/0418.nii.gz"
+        },
+        {
+            "image": "Image_1/0419.nii.gz",
+            "label": "Annotation_1/0419.nii.gz"
+        },
+        {
+            "image": "Image_1/0420.nii.gz",
+            "label": "Annotation_1/0420.nii.gz"
+        },
+        {
+            "image": "Image_1/0421.nii.gz",
+            "label": "Annotation_1/0421.nii.gz"
+        },
+        {
+            "image": "Image_1/0423.nii.gz",
+            "label": "Annotation_1/0423.nii.gz"
+        },
+        {
+            "image": "Image_1/0424.nii.gz",
+            "label": "Annotation_1/0424.nii.gz"
+        },
+        {
+            "image": "Image_1/0426.nii.gz",
+            "label": "Annotation_1/0426.nii.gz"
+        },
+        {
+            "image": "Image_1/0427.nii.gz",
+            "label": "Annotation_1/0427.nii.gz"
+        },
+        {
+            "image": "Image_1/0428.nii.gz",
+            "label": "Annotation_1/0428.nii.gz"
+        },
+        {
+            "image": "Image_1/0429.nii.gz",
+            "label": "Annotation_1/0429.nii.gz"
+        },
+        {
+            "image": "Image_1/0430.nii.gz",
+            "label": "Annotation_1/0430.nii.gz"
+        },
+        {
+            "image": "Image_1/0431.nii.gz",
+            "label": "Annotation_1/0431.nii.gz"
+        },
+        {
+            "image": "Image_1/0432.nii.gz",
+            "label": "Annotation_1/0432.nii.gz"
+        },
+        {
+            "image": "Image_1/0434.nii.gz",
+            "label": "Annotation_1/0434.nii.gz"
+        },
+        {
+            "image": "Image_1/0435.nii.gz",
+            "label": "Annotation_1/0435.nii.gz"
+        },
+        {
+            "image": "Image_1/0438.nii.gz",
+            "label": "Annotation_1/0438.nii.gz"
+        },
+        {
+            "image": "Image_1/0439.nii.gz",
+            "label": "Annotation_1/0439.nii.gz"
+        },
+        {
+            "image": "Image_1/0440.nii.gz",
+            "label": "Annotation_1/0440.nii.gz"
+        },
+        {
+            "image": "Image_1/0442.nii.gz",
+            "label": "Annotation_1/0442.nii.gz"
+        },
+        {
+            "image": "Image_1/0443.nii.gz",
+            "label": "Annotation_1/0443.nii.gz"
+        },
+        {
+            "image": "Image_1/0444.nii.gz",
+            "label": "Annotation_1/0444.nii.gz"
+        },
+        {
+            "image": "Image_1/0445.nii.gz",
+            "label": "Annotation_1/0445.nii.gz"
+        },
+        {
+            "image": "Image_1/0447.nii.gz",
+            "label": "Annotation_1/0447.nii.gz"
+        },
+        {
+            "image": "Image_1/0448.nii.gz",
+            "label": "Annotation_1/0448.nii.gz"
+        },
+        {
+            "image": "Image_1/0449.nii.gz",
+            "label": "Annotation_1/0449.nii.gz"
+        },
+        {
+            "image": "Image_1/0452.nii.gz",
+            "label": "Annotation_1/0452.nii.gz"
+        },
+        {
+            "image": "Image_1/0453.nii.gz",
+            "label": "Annotation_1/0453.nii.gz"
+        },
+        {
+            "image": "Image_1/0454.nii.gz",
+            "label": "Annotation_1/0454.nii.gz"
+        },
+        {
+            "image": "Image_1/0455.nii.gz",
+            "label": "Annotation_1/0455.nii.gz"
+        },
+        {
+            "image": "Image_1/0456.nii.gz",
+            "label": "Annotation_1/0456.nii.gz"
+        },
+        {
+            "image": "Image_1/0457.nii.gz",
+            "label": "Annotation_1/0457.nii.gz"
+        },
+        {
+            "image": "Image_1/0458.nii.gz",
+            "label": "Annotation_1/0458.nii.gz"
+        },
+        {
+            "image": "Image_1/0459.nii.gz",
+            "label": "Annotation_1/0459.nii.gz"
+        },
+        {
+            "image": "Image_1/0460.nii.gz",
+            "label": "Annotation_1/0460.nii.gz"
+        },
+        {
+            "image": "Image_1/0461.nii.gz",
+            "label": "Annotation_1/0461.nii.gz"
+        },
+        {
+            "image": "Image_1/0462.nii.gz",
+            "label": "Annotation_1/0462.nii.gz"
+        },
+        {
+            "image": "Image_1/0465.nii.gz",
+            "label": "Annotation_1/0465.nii.gz"
+        },
+        {
+            "image": "Image_1/0466.nii.gz",
+            "label": "Annotation_1/0466.nii.gz"
+        },
+        {
+            "image": "Image_1/0467.nii.gz",
+            "label": "Annotation_1/0467.nii.gz"
+        },
+        {
+            "image": "Image_1/0469.nii.gz",
+            "label": "Annotation_1/0469.nii.gz"
+        },
+        {
+            "image": "Image_1/0470.nii.gz",
+            "label": "Annotation_1/0470.nii.gz"
+        },
+        {
+            "image": "Image_1/0471.nii.gz",
+            "label": "Annotation_1/0471.nii.gz"
+        },
+        {
+            "image": "Image_1/0472.nii.gz",
+            "label": "Annotation_1/0472.nii.gz"
+        },
+        {
+            "image": "Image_1/0473.nii.gz",
+            "label": "Annotation_1/0473.nii.gz"
+        },
+        {
+            "image": "Image_1/0474.nii.gz",
+            "label": "Annotation_1/0474.nii.gz"
+        },
+        {
+            "image": "Image_1/0475.nii.gz",
+            "label": "Annotation_1/0475.nii.gz"
+        },
+        {
+            "image": "Image_1/0476.nii.gz",
+            "label": "Annotation_1/0476.nii.gz"
+        },
+        {
+            "image": "Image_1/0477.nii.gz",
+            "label": "Annotation_1/0477.nii.gz"
+        },
+        {
+            "image": "Image_1/0478.nii.gz",
+            "label": "Annotation_1/0478.nii.gz"
+        },
+        {
+            "image": "Image_1/0479.nii.gz",
+            "label": "Annotation_1/0479.nii.gz"
+        },
+        {
+            "image": "Image_1/0480.nii.gz",
+            "label": "Annotation_1/0480.nii.gz"
+        },
+        {
+            "image": "Image_1/0482.nii.gz",
+            "label": "Annotation_1/0482.nii.gz"
+        },
+        {
+            "image": "Image_1/0483.nii.gz",
+            "label": "Annotation_1/0483.nii.gz"
+        },
+        {
+            "image": "Image_1/0484.nii.gz",
+            "label": "Annotation_1/0484.nii.gz"
+        },
+        {
+            "image": "Image_1/0485.nii.gz",
+            "label": "Annotation_1/0485.nii.gz"
+        },
+        {
+            "image": "Image_1/0488.nii.gz",
+            "label": "Annotation_1/0488.nii.gz"
+        },
+        {
+            "image": "Image_1/0489.nii.gz",
+            "label": "Annotation_1/0489.nii.gz"
+        },
+        {
+            "image": "Image_1/0493.nii.gz",
+            "label": "Annotation_1/0493.nii.gz"
+        },
+        {
+            "image": "Image_1/0494.nii.gz",
+            "label": "Annotation_1/0494.nii.gz"
+        },
+        {
+            "image": "Image_1/0495.nii.gz",
+            "label": "Annotation_1/0495.nii.gz"
+        },
+        {
+            "image": "Image_1/0497.nii.gz",
+            "label": "Annotation_1/0497.nii.gz"
+        },
+        {
+            "image": "Image_1/0498.nii.gz",
+            "label": "Annotation_1/0498.nii.gz"
+        },
+        {
+            "image": "Image_1/0499.nii.gz",
+            "label": "Annotation_1/0499.nii.gz"
+        },
+        {
+            "image": "Image_1/0500.nii.gz",
+            "label": "Annotation_1/0500.nii.gz"
+        },
+        {
+            "image": "Image_1/0502.nii.gz",
+            "label": "Annotation_1/0502.nii.gz"
+        },
+        {
+            "image": "Image_1/0504.nii.gz",
+            "label": "Annotation_1/0504.nii.gz"
+        },
+        {
+            "image": "Image_1/0509.nii.gz",
+            "label": "Annotation_1/0509.nii.gz"
+        },
+        {
+            "image": "Image_1/0511.nii.gz",
+            "label": "Annotation_1/0511.nii.gz"
+        },
+        {
+            "image": "Image_1/0512.nii.gz",
+            "label": "Annotation_1/0512.nii.gz"
+        },
+        {
+            "image": "Image_1/0513.nii.gz",
+            "label": "Annotation_1/0513.nii.gz"
+        },
+        {
+            "image": "Image_1/0514.nii.gz",
+            "label": "Annotation_1/0514.nii.gz"
+        },
+        {
+            "image": "Image_1/0517.nii.gz",
+            "label": "Annotation_1/0517.nii.gz"
+        },
+        {
+            "image": "Image_1/0520.nii.gz",
+            "label": "Annotation_1/0520.nii.gz"
+        },
+        {
+            "image": "Image_1/0522.nii.gz",
+            "label": "Annotation_1/0522.nii.gz"
+        },
+        {
+            "image": "Image_1/0523.nii.gz",
+            "label": "Annotation_1/0523.nii.gz"
+        },
+        {
+            "image": "Image_1/0524.nii.gz",
+            "label": "Annotation_1/0524.nii.gz"
+        },
+        {
+            "image": "Image_1/0526.nii.gz",
+            "label": "Annotation_1/0526.nii.gz"
+        },
+        {
+            "image": "Image_1/0527.nii.gz",
+            "label": "Annotation_1/0527.nii.gz"
+        },
+        {
+            "image": "Image_1/0530.nii.gz",
+            "label": "Annotation_1/0530.nii.gz"
+        },
+        {
+            "image": "Image_1/0531.nii.gz",
+            "label": "Annotation_1/0531.nii.gz"
+        },
+        {
+            "image": "Image_1/0533.nii.gz",
+            "label": "Annotation_1/0533.nii.gz"
+        },
+        {
+            "image": "Image_1/0534.nii.gz",
+            "label": "Annotation_1/0534.nii.gz"
+        },
+        {
+            "image": "Image_1/0535.nii.gz",
+            "label": "Annotation_1/0535.nii.gz"
+        },
+        {
+            "image": "Image_1/0536.nii.gz",
+            "label": "Annotation_1/0536.nii.gz"
+        },
+        {
+            "image": "Image_1/0538.nii.gz",
+            "label": "Annotation_1/0538.nii.gz"
+        },
+        {
+            "image": "Image_1/0540.nii.gz",
+            "label": "Annotation_1/0540.nii.gz"
+        },
+        {
+            "image": "Image_1/0541.nii.gz",
+            "label": "Annotation_1/0541.nii.gz"
+        },
+        {
+            "image": "Image_1/0542.nii.gz",
+            "label": "Annotation_1/0542.nii.gz"
+        },
+        {
+            "image": "Image_1/0543.nii.gz",
+            "label": "Annotation_1/0543.nii.gz"
+        },
+        {
+            "image": "Image_1/0544.nii.gz",
+            "label": "Annotation_1/0544.nii.gz"
+        },
+        {
+            "image": "Image_1/0547.nii.gz",
+            "label": "Annotation_1/0547.nii.gz"
+        },
+        {
+            "image": "Image_1/0549.nii.gz",
+            "label": "Annotation_1/0549.nii.gz"
+        },
+        {
+            "image": "Image_1/0550.nii.gz",
+            "label": "Annotation_1/0550.nii.gz"
+        },
+        {
+            "image": "Image_1/0551.nii.gz",
+            "label": "Annotation_1/0551.nii.gz"
+        },
+        {
+            "image": "Image_1/0552.nii.gz",
+            "label": "Annotation_1/0552.nii.gz"
+        },
+        {
+            "image": "Image_1/0553.nii.gz",
+            "label": "Annotation_1/0553.nii.gz"
+        },
+        {
+            "image": "Image_1/0555.nii.gz",
+            "label": "Annotation_1/0555.nii.gz"
+        },
+        {
+            "image": "Image_1/0556.nii.gz",
+            "label": "Annotation_1/0556.nii.gz"
+        },
+        {
+            "image": "Image_1/0559.nii.gz",
+            "label": "Annotation_1/0559.nii.gz"
+        },
+        {
+            "image": "Image_1/0561.nii.gz",
+            "label": "Annotation_1/0561.nii.gz"
+        },
+        {
+            "image": "Image_1/0562.nii.gz",
+            "label": "Annotation_1/0562.nii.gz"
+        },
+        {
+            "image": "Image_1/0563.nii.gz",
+            "label": "Annotation_1/0563.nii.gz"
+        },
+        {
+            "image": "Image_1/0565.nii.gz",
+            "label": "Annotation_1/0565.nii.gz"
+        },
+        {
+            "image": "Image_1/0566.nii.gz",
+            "label": "Annotation_1/0566.nii.gz"
+        },
+        {
+            "image": "Image_1/0567.nii.gz",
+            "label": "Annotation_1/0567.nii.gz"
+        },
+        {
+            "image": "Image_1/0568.nii.gz",
+            "label": "Annotation_1/0568.nii.gz"
+        },
+        {
+            "image": "Image_1/0569.nii.gz",
+            "label": "Annotation_1/0569.nii.gz"
+        },
+        {
+            "image": "Image_1/0570.nii.gz",
+            "label": "Annotation_1/0570.nii.gz"
+        },
+        {
+            "image": "Image_1/0572.nii.gz",
+            "label": "Annotation_1/0572.nii.gz"
+        },
+        {
+            "image": "Image_1/0574.nii.gz",
+            "label": "Annotation_1/0574.nii.gz"
+        },
+        {
+            "image": "Image_1/0577.nii.gz",
+            "label": "Annotation_1/0577.nii.gz"
+        },
+        {
+            "image": "Image_1/0578.nii.gz",
+            "label": "Annotation_1/0578.nii.gz"
+        },
+        {
+            "image": "Image_1/0579.nii.gz",
+            "label": "Annotation_1/0579.nii.gz"
+        },
+        {
+            "image": "Image_1/0580.nii.gz",
+            "label": "Annotation_1/0580.nii.gz"
+        },
+        {
+            "image": "Image_1/0582.nii.gz",
+            "label": "Annotation_1/0582.nii.gz"
+        },
+        {
+            "image": "Image_1/0583.nii.gz",
+            "label": "Annotation_1/0583.nii.gz"
+        },
+        {
+            "image": "Image_1/0584.nii.gz",
+            "label": "Annotation_1/0584.nii.gz"
+        },
+        {
+            "image": "Image_1/0585.nii.gz",
+            "label": "Annotation_1/0585.nii.gz"
+        },
+        {
+            "image": "Image_1/0586.nii.gz",
+            "label": "Annotation_1/0586.nii.gz"
+        },
+        {
+            "image": "Image_1/0588.nii.gz",
+            "label": "Annotation_1/0588.nii.gz"
+        },
+        {
+            "image": "Image_1/0589.nii.gz",
+            "label": "Annotation_1/0589.nii.gz"
+        },
+        {
+            "image": "Image_1/0591.nii.gz",
+            "label": "Annotation_1/0591.nii.gz"
+        },
+        {
+            "image": "Image_1/0592.nii.gz",
+            "label": "Annotation_1/0592.nii.gz"
+        },
+        {
+            "image": "Image_1/0594.nii.gz",
+            "label": "Annotation_1/0594.nii.gz"
+        },
+        {
+            "image": "Image_1/0595.nii.gz",
+            "label": "Annotation_1/0595.nii.gz"
+        },
+        {
+            "image": "Image_1/0596.nii.gz",
+            "label": "Annotation_1/0596.nii.gz"
+        },
+        {
+            "image": "Image_1/0597.nii.gz",
+            "label": "Annotation_1/0597.nii.gz"
+        },
+        {
+            "image": "Image_1/0599.nii.gz",
+            "label": "Annotation_1/0599.nii.gz"
+        },
+        {
+            "image": "Image_1/0600.nii.gz",
+            "label": "Annotation_1/0600.nii.gz"
+        },
+        {
+            "image": "Image_1/0601.nii.gz",
+            "label": "Annotation_1/0601.nii.gz"
+        },
+        {
+            "image": "Image_1/0603.nii.gz",
+            "label": "Annotation_1/0603.nii.gz"
+        },
+        {
+            "image": "Image_1/0604.nii.gz",
+            "label": "Annotation_1/0604.nii.gz"
+        },
+        {
+            "image": "Image_1/0607.nii.gz",
+            "label": "Annotation_1/0607.nii.gz"
+        },
+        {
+            "image": "Image_1/0610.nii.gz",
+            "label": "Annotation_1/0610.nii.gz"
+        },
+        {
+            "image": "Image_1/0611.nii.gz",
+            "label": "Annotation_1/0611.nii.gz"
+        },
+        {
+            "image": "Image_1/0612.nii.gz",
+            "label": "Annotation_1/0612.nii.gz"
+        },
+        {
+            "image": "Image_1/0615.nii.gz",
+            "label": "Annotation_1/0615.nii.gz"
+        },
+        {
+            "image": "Image_1/0616.nii.gz",
+            "label": "Annotation_1/0616.nii.gz"
+        },
+        {
+            "image": "Image_1/0618.nii.gz",
+            "label": "Annotation_1/0618.nii.gz"
+        },
+        {
+            "image": "Image_1/0619.nii.gz",
+            "label": "Annotation_1/0619.nii.gz"
+        },
+        {
+            "image": "Image_1/0620.nii.gz",
+            "label": "Annotation_1/0620.nii.gz"
+        },
+        {
+            "image": "Image_1/0621.nii.gz",
+            "label": "Annotation_1/0621.nii.gz"
+        },
+        {
+            "image": "Image_1/0622.nii.gz",
+            "label": "Annotation_1/0622.nii.gz"
+        },
+        {
+            "image": "Image_1/0623.nii.gz",
+            "label": "Annotation_1/0623.nii.gz"
+        },
+        {
+            "image": "Image_1/0625.nii.gz",
+            "label": "Annotation_1/0625.nii.gz"
+        },
+        {
+            "image": "Image_1/0629.nii.gz",
+            "label": "Annotation_1/0629.nii.gz"
+        },
+        {
+            "image": "Image_1/0630.nii.gz",
+            "label": "Annotation_1/0630.nii.gz"
+        },
+        {
+            "image": "Image_1/0631.nii.gz",
+            "label": "Annotation_1/0631.nii.gz"
+        },
+        {
+            "image": "Image_1/0633.nii.gz",
+            "label": "Annotation_1/0633.nii.gz"
+        },
+        {
+            "image": "Image_1/0634.nii.gz",
+            "label": "Annotation_1/0634.nii.gz"
+        },
+        {
+            "image": "Image_1/0636.nii.gz",
+            "label": "Annotation_1/0636.nii.gz"
+        },
+        {
+            "image": "Image_1/0637.nii.gz",
+            "label": "Annotation_1/0637.nii.gz"
+        },
+        {
+            "image": "Image_1/0640.nii.gz",
+            "label": "Annotation_1/0640.nii.gz"
+        },
+        {
+            "image": "Image_1/0643.nii.gz",
+            "label": "Annotation_1/0643.nii.gz"
+        },
+        {
+            "image": "Image_1/0644.nii.gz",
+            "label": "Annotation_1/0644.nii.gz"
+        },
+        {
+            "image": "Image_1/0645.nii.gz",
+            "label": "Annotation_1/0645.nii.gz"
+        },
+        {
+            "image": "Image_1/0646.nii.gz",
+            "label": "Annotation_1/0646.nii.gz"
+        },
+        {
+            "image": "Image_1/0648.nii.gz",
+            "label": "Annotation_1/0648.nii.gz"
+        },
+        {
+            "image": "Image_1/0650.nii.gz",
+            "label": "Annotation_1/0650.nii.gz"
+        },
+        {
+            "image": "Image_1/0651.nii.gz",
+            "label": "Annotation_1/0651.nii.gz"
+        },
+        {
+            "image": "Image_1/0653.nii.gz",
+            "label": "Annotation_1/0653.nii.gz"
+        },
+        {
+            "image": "Image_1/0654.nii.gz",
+            "label": "Annotation_1/0654.nii.gz"
+        },
+        {
+            "image": "Image_1/0655.nii.gz",
+            "label": "Annotation_1/0655.nii.gz"
+        },
+        {
+            "image": "Image_1/0659.nii.gz",
+            "label": "Annotation_1/0659.nii.gz"
+        },
+        {
+            "image": "Image_1/0660.nii.gz",
+            "label": "Annotation_1/0660.nii.gz"
+        },
+        {
+            "image": "Image_1/0661.nii.gz",
+            "label": "Annotation_1/0661.nii.gz"
+        },
+        {
+            "image": "Image_1/0665.nii.gz",
+            "label": "Annotation_1/0665.nii.gz"
+        },
+        {
+            "image": "Image_1/0671.nii.gz",
+            "label": "Annotation_1/0671.nii.gz"
+        },
+        {
+            "image": "Image_1/0672.nii.gz",
+            "label": "Annotation_1/0672.nii.gz"
+        },
+        {
+            "image": "Image_1/0673.nii.gz",
+            "label": "Annotation_1/0673.nii.gz"
+        },
+        {
+            "image": "Image_1/0674.nii.gz",
+            "label": "Annotation_1/0674.nii.gz"
+        },
+        {
+            "image": "Image_1/0675.nii.gz",
+            "label": "Annotation_1/0675.nii.gz"
+        },
+        {
+            "image": "Image_1/0676.nii.gz",
+            "label": "Annotation_1/0676.nii.gz"
+        },
+        {
+            "image": "Image_1/0678.nii.gz",
+            "label": "Annotation_1/0678.nii.gz"
+        },
+        {
+            "image": "Image_1/0681.nii.gz",
+            "label": "Annotation_1/0681.nii.gz"
+        },
+        {
+            "image": "Image_1/0683.nii.gz",
+            "label": "Annotation_1/0683.nii.gz"
+        },
+        {
+            "image": "Image_1/0684.nii.gz",
+            "label": "Annotation_1/0684.nii.gz"
+        },
+        {
+            "image": "Image_1/0685.nii.gz",
+            "label": "Annotation_1/0685.nii.gz"
+        },
+        {
+            "image": "Image_1/0686.nii.gz",
+            "label": "Annotation_1/0686.nii.gz"
+        },
+        {
+            "image": "Image_1/0687.nii.gz",
+            "label": "Annotation_1/0687.nii.gz"
+        },
+        {
+            "image": "Image_1/0689.nii.gz",
+            "label": "Annotation_1/0689.nii.gz"
+        },
+        {
+            "image": "Image_1/0690.nii.gz",
+            "label": "Annotation_1/0690.nii.gz"
+        },
+        {
+            "image": "Image_1/0692.nii.gz",
+            "label": "Annotation_1/0692.nii.gz"
+        },
+        {
+            "image": "Image_1/0693.nii.gz",
+            "label": "Annotation_1/0693.nii.gz"
+        },
+        {
+            "image": "Image_1/0694.nii.gz",
+            "label": "Annotation_1/0694.nii.gz"
+        },
+        {
+            "image": "Image_1/0695.nii.gz",
+            "label": "Annotation_1/0695.nii.gz"
+        },
+        {
+            "image": "Image_1/0699.nii.gz",
+            "label": "Annotation_1/0699.nii.gz"
+        },
+        {
+            "image": "Image_2/0003.nii.gz",
+            "label": "Annotation_2/0003.nii.gz"
+        },
+        {
+            "image": "Image_2/0004_0.nii.gz",
+            "label": "Annotation_2/0004_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0007_0.nii.gz",
+            "label": "Annotation_2/0007_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0008.nii.gz",
+            "label": "Annotation_2/0008.nii.gz"
+        },
+        {
+            "image": "Image_2/0009.nii.gz",
+            "label": "Annotation_2/0009.nii.gz"
+        },
+        {
+            "image": "Image_2/0010.nii.gz",
+            "label": "Annotation_2/0010.nii.gz"
+        },
+        {
+            "image": "Image_2/0013_0.nii.gz",
+            "label": "Annotation_2/0013_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0014_0.nii.gz",
+            "label": "Annotation_2/0014_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0015_0.nii.gz",
+            "label": "Annotation_2/0015_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0017.nii.gz",
+            "label": "Annotation_2/0017.nii.gz"
+        },
+        {
+            "image": "Image_2/0019.nii.gz",
+            "label": "Annotation_2/0019.nii.gz"
+        },
+        {
+            "image": "Image_2/0021_0.nii.gz",
+            "label": "Annotation_2/0021_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0022_0.nii.gz",
+            "label": "Annotation_2/0022_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0027_0.nii.gz",
+            "label": "Annotation_2/0027_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0033.nii.gz",
+            "label": "Annotation_2/0033.nii.gz"
+        },
+        {
+            "image": "Image_2/0034.nii.gz",
+            "label": "Annotation_2/0034.nii.gz"
+        },
+        {
+            "image": "Image_2/0036.nii.gz",
+            "label": "Annotation_2/0036.nii.gz"
+        },
+        {
+            "image": "Image_2/0037_0.nii.gz",
+            "label": "Annotation_2/0037_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0038_0.nii.gz",
+            "label": "Annotation_2/0038_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0039_0.nii.gz",
+            "label": "Annotation_2/0039_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0040.nii.gz",
+            "label": "Annotation_2/0040.nii.gz"
+        },
+        {
+            "image": "Image_2/0041_0.nii.gz",
+            "label": "Annotation_2/0041_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0046.nii.gz",
+            "label": "Annotation_2/0046.nii.gz"
+        },
+        {
+            "image": "Image_2/0047.nii.gz",
+            "label": "Annotation_2/0047.nii.gz"
+        },
+        {
+            "image": "Image_2/0048.nii.gz",
+            "label": "Annotation_2/0048.nii.gz"
+        },
+        {
+            "image": "Image_2/0049.nii.gz",
+            "label": "Annotation_2/0049.nii.gz"
+        },
+        {
+            "image": "Image_2/0052_0.nii.gz",
+            "label": "Annotation_2/0052_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0053_0.nii.gz",
+            "label": "Annotation_2/0053_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0054_0.nii.gz",
+            "label": "Annotation_2/0054_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0056_0.nii.gz",
+            "label": "Annotation_2/0056_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0057_0.nii.gz",
+            "label": "Annotation_2/0057_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0058_0_0.nii.gz",
+            "label": "Annotation_2/0058_0_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0058_1_0.nii.gz",
+            "label": "Annotation_2/0058_1_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0059_0.nii.gz",
+            "label": "Annotation_2/0059_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0061_0.nii.gz",
+            "label": "Annotation_2/0061_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0062_0.nii.gz",
+            "label": "Annotation_2/0062_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0063_0.nii.gz",
+            "label": "Annotation_2/0063_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0064_0_0.nii.gz",
+            "label": "Annotation_2/0064_0_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0066_0.nii.gz",
+            "label": "Annotation_2/0066_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0067_0.nii.gz",
+            "label": "Annotation_2/0067_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0072_0.nii.gz",
+            "label": "Annotation_2/0072_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0073_0.nii.gz",
+            "label": "Annotation_2/0073_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0074_0.nii.gz",
+            "label": "Annotation_2/0074_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0078.nii.gz",
+            "label": "Annotation_2/0078.nii.gz"
+        },
+        {
+            "image": "Image_2/0079_0.nii.gz",
+            "label": "Annotation_2/0079_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0080.nii.gz",
+            "label": "Annotation_2/0080.nii.gz"
+        },
+        {
+            "image": "Image_2/0082.nii.gz",
+            "label": "Annotation_2/0082.nii.gz"
+        },
+        {
+            "image": "Image_2/0085_1.nii.gz",
+            "label": "Annotation_2/0085_1.nii.gz"
+        },
+        {
+            "image": "Image_2/0086_0.nii.gz",
+            "label": "Annotation_2/0086_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0087_1.nii.gz",
+            "label": "Annotation_2/0087_1.nii.gz"
+        },
+        {
+            "image": "Image_2/0088_0.nii.gz",
+            "label": "Annotation_2/0088_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0089_0.nii.gz",
+            "label": "Annotation_2/0089_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0090_0.nii.gz",
+            "label": "Annotation_2/0090_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0092_0_0.nii.gz",
+            "label": "Annotation_2/0092_0_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0093_0.nii.gz",
+            "label": "Annotation_2/0093_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0095_1.nii.gz",
+            "label": "Annotation_2/0095_1.nii.gz"
+        },
+        {
+            "image": "Image_2/0096_1.nii.gz",
+            "label": "Annotation_2/0096_1.nii.gz"
+        },
+        {
+            "image": "Image_2/0099_0.nii.gz",
+            "label": "Annotation_2/0099_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0100_0.nii.gz",
+            "label": "Annotation_2/0100_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0101_0.nii.gz",
+            "label": "Annotation_2/0101_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0103.nii.gz",
+            "label": "Annotation_2/0103.nii.gz"
+        },
+        {
+            "image": "Image_2/0104.nii.gz",
+            "label": "Annotation_2/0104.nii.gz"
+        },
+        {
+            "image": "Image_2/0106_0.nii.gz",
+            "label": "Annotation_2/0106_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0107_0_0.nii.gz",
+            "label": "Annotation_2/0107_0_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0110_0.nii.gz",
+            "label": "Annotation_2/0110_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0111_0.nii.gz",
+            "label": "Annotation_2/0111_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0112_0.nii.gz",
+            "label": "Annotation_2/0112_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0113_0.nii.gz",
+            "label": "Annotation_2/0113_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0119_0.nii.gz",
+            "label": "Annotation_2/0119_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0120_0.nii.gz",
+            "label": "Annotation_2/0120_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0125_0.nii.gz",
+            "label": "Annotation_2/0125_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0003_1.nii.gz",
+            "label": "Annotation_3/0003_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0007_2.nii.gz",
+            "label": "Annotation_3/0007_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0015_1.nii.gz",
+            "label": "Annotation_3/0015_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0015_2.nii.gz",
+            "label": "Annotation_3/0015_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0015_4.nii.gz",
+            "label": "Annotation_3/0015_4.nii.gz"
+        },
+        {
+            "image": "Image_3/0015_5.nii.gz",
+            "label": "Annotation_3/0015_5.nii.gz"
+        },
+        {
+            "image": "Image_3/0015_7.nii.gz",
+            "label": "Annotation_3/0015_7.nii.gz"
+        },
+        {
+            "image": "Image_3/0015_8.nii.gz",
+            "label": "Annotation_3/0015_8.nii.gz"
+        },
+        {
+            "image": "Image_3/0016_3.nii.gz",
+            "label": "Annotation_3/0016_3.nii.gz"
+        },
+        {
+            "image": "Image_3/0018_0.nii.gz",
+            "label": "Annotation_3/0018_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0018_1.nii.gz",
+            "label": "Annotation_3/0018_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0019_1.nii.gz",
+            "label": "Annotation_3/0019_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0021_1.nii.gz",
+            "label": "Annotation_3/0021_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0022_1.nii.gz",
+            "label": "Annotation_3/0022_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0025_1.nii.gz",
+            "label": "Annotation_3/0025_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0025_2.nii.gz",
+            "label": "Annotation_3/0025_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0026_1.nii.gz",
+            "label": "Annotation_3/0026_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0027_0.nii.gz",
+            "label": "Annotation_3/0027_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0027_1.nii.gz",
+            "label": "Annotation_3/0027_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0030_0.nii.gz",
+            "label": "Annotation_3/0030_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0030_1.nii.gz",
+            "label": "Annotation_3/0030_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0032_1.nii.gz",
+            "label": "Annotation_3/0032_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0033_0.nii.gz",
+            "label": "Annotation_3/0033_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0033_1.nii.gz",
+            "label": "Annotation_3/0033_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0035_0.nii.gz",
+            "label": "Annotation_3/0035_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0035_1.nii.gz",
+            "label": "Annotation_3/0035_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0037_0.nii.gz",
+            "label": "Annotation_3/0037_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0037_1.nii.gz",
+            "label": "Annotation_3/0037_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0038_1.nii.gz",
+            "label": "Annotation_3/0038_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0039_0.nii.gz",
+            "label": "Annotation_3/0039_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0039_1.nii.gz",
+            "label": "Annotation_3/0039_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0040_0.nii.gz",
+            "label": "Annotation_3/0040_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0040_1.nii.gz",
+            "label": "Annotation_3/0040_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0041_0.nii.gz",
+            "label": "Annotation_3/0041_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0041_1.nii.gz",
+            "label": "Annotation_3/0041_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0042_0.nii.gz",
+            "label": "Annotation_3/0042_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0042_1.nii.gz",
+            "label": "Annotation_3/0042_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0043_1.nii.gz",
+            "label": "Annotation_3/0043_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0044_2.nii.gz",
+            "label": "Annotation_3/0044_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0044_3.nii.gz",
+            "label": "Annotation_3/0044_3.nii.gz"
+        },
+        {
+            "image": "Image_3/0045_1.nii.gz",
+            "label": "Annotation_3/0045_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0046_13.nii.gz",
+            "label": "Annotation_3/0046_13.nii.gz"
+        },
+        {
+            "image": "Image_3/0046_14.nii.gz",
+            "label": "Annotation_3/0046_14.nii.gz"
+        },
+        {
+            "image": "Image_3/0046_2.nii.gz",
+            "label": "Annotation_3/0046_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0046_3.nii.gz",
+            "label": "Annotation_3/0046_3.nii.gz"
+        },
+        {
+            "image": "Image_3/0046_6.nii.gz",
+            "label": "Annotation_3/0046_6.nii.gz"
+        },
+        {
+            "image": "Image_3/0046_7.nii.gz",
+            "label": "Annotation_3/0046_7.nii.gz"
+        },
+        {
+            "image": "Image_3/0048_1.nii.gz",
+            "label": "Annotation_3/0048_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0048_2.nii.gz",
+            "label": "Annotation_3/0048_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0051_0.nii.gz",
+            "label": "Annotation_3/0051_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0051_1.nii.gz",
+            "label": "Annotation_3/0051_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0053_0.nii.gz",
+            "label": "Annotation_3/0053_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0053_1.nii.gz",
+            "label": "Annotation_3/0053_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0054_2.nii.gz",
+            "label": "Annotation_3/0054_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0054_3.nii.gz",
+            "label": "Annotation_3/0054_3.nii.gz"
+        },
+        {
+            "image": "Image_3/0055_1.nii.gz",
+            "label": "Annotation_3/0055_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0055_2.nii.gz",
+            "label": "Annotation_3/0055_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0056_0.nii.gz",
+            "label": "Annotation_3/0056_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0056_1.nii.gz",
+            "label": "Annotation_3/0056_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0057_1.nii.gz",
+            "label": "Annotation_3/0057_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0057_2.nii.gz",
+            "label": "Annotation_3/0057_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0057_7.nii.gz",
+            "label": "Annotation_3/0057_7.nii.gz"
+        },
+        {
+            "image": "Image_3/0057_8.nii.gz",
+            "label": "Annotation_3/0057_8.nii.gz"
+        },
+        {
+            "image": "Image_3/0059_0.nii.gz",
+            "label": "Annotation_3/0059_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0059_1.nii.gz",
+            "label": "Annotation_3/0059_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0060_0.nii.gz",
+            "label": "Annotation_3/0060_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0061_0.nii.gz",
+            "label": "Annotation_3/0061_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0061_1.nii.gz",
+            "label": "Annotation_3/0061_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0062_0.nii.gz",
+            "label": "Annotation_3/0062_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0062_1.nii.gz",
+            "label": "Annotation_3/0062_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0063_0.nii.gz",
+            "label": "Annotation_3/0063_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0063_1.nii.gz",
+            "label": "Annotation_3/0063_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0065_0.nii.gz",
+            "label": "Annotation_3/0065_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0065_1.nii.gz",
+            "label": "Annotation_3/0065_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0066_2.nii.gz",
+            "label": "Annotation_3/0066_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0066_3.nii.gz",
+            "label": "Annotation_3/0066_3.nii.gz"
+        },
+        {
+            "image": "Image_3/0067_0.nii.gz",
+            "label": "Annotation_3/0067_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0067_1.nii.gz",
+            "label": "Annotation_3/0067_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0068_0.nii.gz",
+            "label": "Annotation_3/0068_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0068_1.nii.gz",
+            "label": "Annotation_3/0068_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0069_1.nii.gz",
+            "label": "Annotation_3/0069_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0069_2.nii.gz",
+            "label": "Annotation_3/0069_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0072_1.nii.gz",
+            "label": "Annotation_3/0072_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0072_2.nii.gz",
+            "label": "Annotation_3/0072_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0073_0.nii.gz",
+            "label": "Annotation_3/0073_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0073_1.nii.gz",
+            "label": "Annotation_3/0073_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0074_1.nii.gz",
+            "label": "Annotation_3/0074_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0075_1.nii.gz",
+            "label": "Annotation_3/0075_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0075_10.nii.gz",
+            "label": "Annotation_3/0075_10.nii.gz"
+        },
+        {
+            "image": "Image_3/0075_2.nii.gz",
+            "label": "Annotation_3/0075_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0075_7.nii.gz",
+            "label": "Annotation_3/0075_7.nii.gz"
+        },
+        {
+            "image": "Image_3/0075_8.nii.gz",
+            "label": "Annotation_3/0075_8.nii.gz"
+        },
+        {
+            "image": "Image_3/0076_0.nii.gz",
+            "label": "Annotation_3/0076_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0076_1.nii.gz",
+            "label": "Annotation_3/0076_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0078_1.nii.gz",
+            "label": "Annotation_3/0078_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0079_0.nii.gz",
+            "label": "Annotation_3/0079_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0079_1.nii.gz",
+            "label": "Annotation_3/0079_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0080_0.nii.gz",
+            "label": "Annotation_3/0080_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0080_1.nii.gz",
+            "label": "Annotation_3/0080_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0081_0.nii.gz",
+            "label": "Annotation_3/0081_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0081_1.nii.gz",
+            "label": "Annotation_3/0081_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0082_0.nii.gz",
+            "label": "Annotation_3/0082_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0082_1.nii.gz",
+            "label": "Annotation_3/0082_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0083_0.nii.gz",
+            "label": "Annotation_3/0083_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0083_1.nii.gz",
+            "label": "Annotation_3/0083_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0084_1.nii.gz",
+            "label": "Annotation_3/0084_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0087_0.nii.gz",
+            "label": "Annotation_3/0087_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0087_1.nii.gz",
+            "label": "Annotation_3/0087_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0088_2.nii.gz",
+            "label": "Annotation_3/0088_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0088_3.nii.gz",
+            "label": "Annotation_3/0088_3.nii.gz"
+        },
+        {
+            "image": "Image_3/0088_4.nii.gz",
+            "label": "Annotation_3/0088_4.nii.gz"
+        },
+        {
+            "image": "Image_3/0090_1.nii.gz",
+            "label": "Annotation_3/0090_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0091_0.nii.gz",
+            "label": "Annotation_3/0091_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0091_1.nii.gz",
+            "label": "Annotation_3/0091_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0092_0.nii.gz",
+            "label": "Annotation_3/0092_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0092_1.nii.gz",
+            "label": "Annotation_3/0092_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0095_10.nii.gz",
+            "label": "Annotation_3/0095_10.nii.gz"
+        },
+        {
+            "image": "Image_3/0095_11.nii.gz",
+            "label": "Annotation_3/0095_11.nii.gz"
+        },
+        {
+            "image": "Image_3/0095_12.nii.gz",
+            "label": "Annotation_3/0095_12.nii.gz"
+        },
+        {
+            "image": "Image_3/0095_3.nii.gz",
+            "label": "Annotation_3/0095_3.nii.gz"
+        },
+        {
+            "image": "Image_3/0095_6.nii.gz",
+            "label": "Annotation_3/0095_6.nii.gz"
+        },
+        {
+            "image": "Image_3/0095_7.nii.gz",
+            "label": "Annotation_3/0095_7.nii.gz"
+        },
+        {
+            "image": "Image_3/0097_2.nii.gz",
+            "label": "Annotation_3/0097_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0097_3.nii.gz",
+            "label": "Annotation_3/0097_3.nii.gz"
+        },
+        {
+            "image": "Image_3/0097_6.nii.gz",
+            "label": "Annotation_3/0097_6.nii.gz"
+        },
+        {
+            "image": "Image_3/0097_8.nii.gz",
+            "label": "Annotation_3/0097_8.nii.gz"
+        },
+        {
+            "image": "Image_3/0097_9.nii.gz",
+            "label": "Annotation_3/0097_9.nii.gz"
+        },
+        {
+            "image": "Image_3/0098_0.nii.gz",
+            "label": "Annotation_3/0098_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0098_1.nii.gz",
+            "label": "Annotation_3/0098_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0105_1.nii.gz",
+            "label": "Annotation_3/0105_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0107_1.nii.gz",
+            "label": "Annotation_3/0107_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0108_0.nii.gz",
+            "label": "Annotation_3/0108_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0108_1.nii.gz",
+            "label": "Annotation_3/0108_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0109_1.nii.gz",
+            "label": "Annotation_3/0109_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0109_2.nii.gz",
+            "label": "Annotation_3/0109_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0111_0.nii.gz",
+            "label": "Annotation_3/0111_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0111_1.nii.gz",
+            "label": "Annotation_3/0111_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0112_0.nii.gz",
+            "label": "Annotation_3/0112_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0112_1.nii.gz",
+            "label": "Annotation_3/0112_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0115_1.nii.gz",
+            "label": "Annotation_3/0115_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0119_0.nii.gz",
+            "label": "Annotation_3/0119_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0122_2.nii.gz",
+            "label": "Annotation_3/0122_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0126_2.nii.gz",
+            "label": "Annotation_3/0126_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0129_2.nii.gz",
+            "label": "Annotation_3/0129_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0135_1.nii.gz",
+            "label": "Annotation_3/0135_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0139_2.nii.gz",
+            "label": "Annotation_3/0139_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0146_0.nii.gz",
+            "label": "Annotation_3/0146_0.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "Image_1/0024_0.nii.gz",
+            "label": "Annotation_1/0024_0.nii.gz"
+        },
+        {
+            "image": "Image_1/0036.nii.gz",
+            "label": "Annotation_1/0036.nii.gz"
+        },
+        {
+            "image": "Image_1/0037.nii.gz",
+            "label": "Annotation_1/0037.nii.gz"
+        },
+        {
+            "image": "Image_1/0045.nii.gz",
+            "label": "Annotation_1/0045.nii.gz"
+        },
+        {
+            "image": "Image_1/0047_1.nii.gz",
+            "label": "Annotation_1/0047_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0049.nii.gz",
+            "label": "Annotation_1/0049.nii.gz"
+        },
+        {
+            "image": "Image_1/0052.nii.gz",
+            "label": "Annotation_1/0052.nii.gz"
+        },
+        {
+            "image": "Image_1/0056.nii.gz",
+            "label": "Annotation_1/0056.nii.gz"
+        },
+        {
+            "image": "Image_1/0057.nii.gz",
+            "label": "Annotation_1/0057.nii.gz"
+        },
+        {
+            "image": "Image_1/0073.nii.gz",
+            "label": "Annotation_1/0073.nii.gz"
+        },
+        {
+            "image": "Image_1/0078.nii.gz",
+            "label": "Annotation_1/0078.nii.gz"
+        },
+        {
+            "image": "Image_1/0088.nii.gz",
+            "label": "Annotation_1/0088.nii.gz"
+        },
+        {
+            "image": "Image_1/0095.nii.gz",
+            "label": "Annotation_1/0095.nii.gz"
+        },
+        {
+            "image": "Image_1/0101.nii.gz",
+            "label": "Annotation_1/0101.nii.gz"
+        },
+        {
+            "image": "Image_1/0105.nii.gz",
+            "label": "Annotation_1/0105.nii.gz"
+        },
+        {
+            "image": "Image_1/0111.nii.gz",
+            "label": "Annotation_1/0111.nii.gz"
+        },
+        {
+            "image": "Image_1/0118.nii.gz",
+            "label": "Annotation_1/0118.nii.gz"
+        },
+        {
+            "image": "Image_1/0123.nii.gz",
+            "label": "Annotation_1/0123.nii.gz"
+        },
+        {
+            "image": "Image_1/0127.nii.gz",
+            "label": "Annotation_1/0127.nii.gz"
+        },
+        {
+            "image": "Image_1/0144.nii.gz",
+            "label": "Annotation_1/0144.nii.gz"
+        },
+        {
+            "image": "Image_1/0150.nii.gz",
+            "label": "Annotation_1/0150.nii.gz"
+        },
+        {
+            "image": "Image_1/0152.nii.gz",
+            "label": "Annotation_1/0152.nii.gz"
+        },
+        {
+            "image": "Image_1/0174.nii.gz",
+            "label": "Annotation_1/0174.nii.gz"
+        },
+        {
+            "image": "Image_1/0178.nii.gz",
+            "label": "Annotation_1/0178.nii.gz"
+        },
+        {
+            "image": "Image_1/0180_1.nii.gz",
+            "label": "Annotation_1/0180_1.nii.gz"
+        },
+        {
+            "image": "Image_1/0188.nii.gz",
+            "label": "Annotation_1/0188.nii.gz"
+        },
+        {
+            "image": "Image_1/0209.nii.gz",
+            "label": "Annotation_1/0209.nii.gz"
+        },
+        {
+            "image": "Image_1/0241.nii.gz",
+            "label": "Annotation_1/0241.nii.gz"
+        },
+        {
+            "image": "Image_1/0248.nii.gz",
+            "label": "Annotation_1/0248.nii.gz"
+        },
+        {
+            "image": "Image_1/0252.nii.gz",
+            "label": "Annotation_1/0252.nii.gz"
+        },
+        {
+            "image": "Image_1/0253.nii.gz",
+            "label": "Annotation_1/0253.nii.gz"
+        },
+        {
+            "image": "Image_1/0264.nii.gz",
+            "label": "Annotation_1/0264.nii.gz"
+        },
+        {
+            "image": "Image_1/0273.nii.gz",
+            "label": "Annotation_1/0273.nii.gz"
+        },
+        {
+            "image": "Image_1/0285.nii.gz",
+            "label": "Annotation_1/0285.nii.gz"
+        },
+        {
+            "image": "Image_1/0299.nii.gz",
+            "label": "Annotation_1/0299.nii.gz"
+        },
+        {
+            "image": "Image_1/0309.nii.gz",
+            "label": "Annotation_1/0309.nii.gz"
+        },
+        {
+            "image": "Image_1/0310.nii.gz",
+            "label": "Annotation_1/0310.nii.gz"
+        },
+        {
+            "image": "Image_1/0313.nii.gz",
+            "label": "Annotation_1/0313.nii.gz"
+        },
+        {
+            "image": "Image_1/0314.nii.gz",
+            "label": "Annotation_1/0314.nii.gz"
+        },
+        {
+            "image": "Image_1/0327.nii.gz",
+            "label": "Annotation_1/0327.nii.gz"
+        },
+        {
+            "image": "Image_1/0334.nii.gz",
+            "label": "Annotation_1/0334.nii.gz"
+        },
+        {
+            "image": "Image_1/0340.nii.gz",
+            "label": "Annotation_1/0340.nii.gz"
+        },
+        {
+            "image": "Image_1/0354.nii.gz",
+            "label": "Annotation_1/0354.nii.gz"
+        },
+        {
+            "image": "Image_1/0365.nii.gz",
+            "label": "Annotation_1/0365.nii.gz"
+        },
+        {
+            "image": "Image_1/0382.nii.gz",
+            "label": "Annotation_1/0382.nii.gz"
+        },
+        {
+            "image": "Image_1/0437.nii.gz",
+            "label": "Annotation_1/0437.nii.gz"
+        },
+        {
+            "image": "Image_1/0463.nii.gz",
+            "label": "Annotation_1/0463.nii.gz"
+        },
+        {
+            "image": "Image_1/0468.nii.gz",
+            "label": "Annotation_1/0468.nii.gz"
+        },
+        {
+            "image": "Image_1/0481.nii.gz",
+            "label": "Annotation_1/0481.nii.gz"
+        },
+        {
+            "image": "Image_1/0487.nii.gz",
+            "label": "Annotation_1/0487.nii.gz"
+        },
+        {
+            "image": "Image_1/0490.nii.gz",
+            "label": "Annotation_1/0490.nii.gz"
+        },
+        {
+            "image": "Image_1/0519.nii.gz",
+            "label": "Annotation_1/0519.nii.gz"
+        },
+        {
+            "image": "Image_1/0554.nii.gz",
+            "label": "Annotation_1/0554.nii.gz"
+        },
+        {
+            "image": "Image_1/0575.nii.gz",
+            "label": "Annotation_1/0575.nii.gz"
+        },
+        {
+            "image": "Image_1/0590.nii.gz",
+            "label": "Annotation_1/0590.nii.gz"
+        },
+        {
+            "image": "Image_1/0598.nii.gz",
+            "label": "Annotation_1/0598.nii.gz"
+        },
+        {
+            "image": "Image_1/0608.nii.gz",
+            "label": "Annotation_1/0608.nii.gz"
+        },
+        {
+            "image": "Image_1/0635.nii.gz",
+            "label": "Annotation_1/0635.nii.gz"
+        },
+        {
+            "image": "Image_1/0647.nii.gz",
+            "label": "Annotation_1/0647.nii.gz"
+        },
+        {
+            "image": "Image_1/0652.nii.gz",
+            "label": "Annotation_1/0652.nii.gz"
+        },
+        {
+            "image": "Image_1/0662.nii.gz",
+            "label": "Annotation_1/0662.nii.gz"
+        },
+        {
+            "image": "Image_1/0666.nii.gz",
+            "label": "Annotation_1/0666.nii.gz"
+        },
+        {
+            "image": "Image_1/0691.nii.gz",
+            "label": "Annotation_1/0691.nii.gz"
+        },
+        {
+            "image": "Image_2/0002.nii.gz",
+            "label": "Annotation_2/0002.nii.gz"
+        },
+        {
+            "image": "Image_2/0012_0.nii.gz",
+            "label": "Annotation_2/0012_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0045.nii.gz",
+            "label": "Annotation_2/0045.nii.gz"
+        },
+        {
+            "image": "Image_2/0051_0_1.nii.gz",
+            "label": "Annotation_2/0051_0_1.nii.gz"
+        },
+        {
+            "image": "Image_2/0060_1.nii.gz",
+            "label": "Annotation_2/0060_1.nii.gz"
+        },
+        {
+            "image": "Image_2/0069_0.nii.gz",
+            "label": "Annotation_2/0069_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0071_0.nii.gz",
+            "label": "Annotation_2/0071_0.nii.gz"
+        },
+        {
+            "image": "Image_2/0129_0.nii.gz",
+            "label": "Annotation_2/0129_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0001_0.nii.gz",
+            "label": "Annotation_3/0001_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0005_14.nii.gz",
+            "label": "Annotation_3/0005_14.nii.gz"
+        },
+        {
+            "image": "Image_3/0012_2.nii.gz",
+            "label": "Annotation_3/0012_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0012_3.nii.gz",
+            "label": "Annotation_3/0012_3.nii.gz"
+        },
+        {
+            "image": "Image_3/0017_2.nii.gz",
+            "label": "Annotation_3/0017_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0017_4.nii.gz",
+            "label": "Annotation_3/0017_4.nii.gz"
+        },
+        {
+            "image": "Image_3/0017_5.nii.gz",
+            "label": "Annotation_3/0017_5.nii.gz"
+        },
+        {
+            "image": "Image_3/0020_1.nii.gz",
+            "label": "Annotation_3/0020_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0020_2.nii.gz",
+            "label": "Annotation_3/0020_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0024_0.nii.gz",
+            "label": "Annotation_3/0024_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0024_1.nii.gz",
+            "label": "Annotation_3/0024_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0114_2.nii.gz",
+            "label": "Annotation_3/0114_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0118_0.nii.gz",
+            "label": "Annotation_3/0118_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0121_2.nii.gz",
+            "label": "Annotation_3/0121_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0125_2.nii.gz",
+            "label": "Annotation_3/0125_2.nii.gz"
+        },
+        {
+            "image": "Image_3/0128_0.nii.gz",
+            "label": "Annotation_3/0128_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0132_0.nii.gz",
+            "label": "Annotation_3/0132_0.nii.gz"
+        },
+        {
+            "image": "Image_3/0137_1.nii.gz",
+            "label": "Annotation_3/0137_1.nii.gz"
+        },
+        {
+            "image": "Image_3/0144_1.nii.gz",
+            "label": "Annotation_3/0144_1.nii.gz"
+        }
+    ]
+}
